@@ -8,6 +8,7 @@
   --azul-claro: #e9f2ff;
   --navbar-fijo: #0f172a;
   --proceso: #f1f5f9;
+  --faq: #f1f5f9;
 }
 
 .text-primary {
@@ -201,3 +202,71 @@ body {
 /* * {
   outline: 1px solid red;
 } */
+
+/* FAQ */
+
+#faq {
+  background-color: var(--faq);
+}
+
+#faq .accordion-button {
+  font-weight: 600;
+  color: var(--texto);
+  background-color: white;
+  padding: 1.2rem;
+}
+
+#faq .accordion-button:not(.collapse) {
+  color: white;
+  background-color: var(--azul-sansupport);
+  box-shadow: none;
+}
+
+#faq .accordion-button:focus {
+  box-shadow: none;
+}
+
+#faq .accordion-body {
+  color: #64748b;
+  line-height: 1.7;
+  background-color: white;
+}
+
+/* CTA */
+
+#cta {
+  background-color: white;
+}
+
+#cta h2 {
+  line-height: 1.2;
+}
+
+#cta p {
+  max-width: 650px;
+  margin-top: auto;
+  margin-right: auto;
+}
+
+/* CONTACTO */
+
+.contacto {
+  background-color: #ffffff;
+}
+
+.contacto .form-control,
+.contacto .form-select {
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+  border: 1px solid #dee2e6;
+}
+
+.contacto .form-control:focus,
+.contacto .form-select:focus {
+  border-color: var(--azul-sansupport);
+  box-shadow: 0 0 0 0.2rem rgba(18, 58, 99, 0.15);
+}
+
+.contacto textarea {
+  resize: none;
+}
