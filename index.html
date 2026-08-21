@@ -105,7 +105,7 @@
           </span>
 
           <h1 class="display-2 fw-bold">
-            Creamos paginas web
+            Creamos páginas web
             <span class="text-info">
               para tu negocio
             </span>
@@ -119,13 +119,13 @@
 
           <div class="mt-4">
 
-            <a href="#contacto" class="btn btn-primary btn-lg rounded-pill px-4">
+            <a href="#contacto" class="btn btn-primary btn-lg rounded-pill px-4 mt-4">
 
               Solicitar cotización
 
             </a>
 
-            <a href="#servicios" class="btn btn-secondary btn-outline-dark btn-lg rounded-pill px-4 ms-2">
+            <a href="#servicios" class="btn btn-secondary btn-outline-dark btn-lg rounded-pill px-4 ms-2 mt-4">
 
               Ver servicios
 
@@ -395,7 +395,7 @@
 
           <div class="card portafolio-card border-0 shadow-sm h-100">
 
-            <img src="img/menu1.jpg" class="card-img-top" alt="paginas web para restaurante">
+            <img src="img/" class="card-img-top" alt="paginas web para restaurante">
 
             <div class="card-body p-4">
 
@@ -404,16 +404,15 @@
               </span>
 
               <h3 class="h4">
-                Restaurante
+
               </h3>
 
               <p class="text-muted">
-                Página web moderna para mostrar el menu,
-                ubicación, información y contacto del restaurante.
+                Página web moderna
               </p>
 
-              <a href="https://venerable-gnome-6bc4f2.netlify.app" class="btn btn-outline-primary rounded-pill">
-                Ver proyecto
+              <a href="" class="btn btn-outline-primary rounded-pill">
+                Aqui va tu proyecto
               </a>
 
             </div>
@@ -898,17 +897,18 @@
             encontrar la mejor solución para tu negocio.
           </p>
 
-          <div class="mt-4">
+          <div class="mt-4 text-center">
 
-            <a href="#contacto" class="btn btn-primary btn-lg rounded-pill px-4">
+            <a href="#contacto" class="btn btn-primary btn-lg rounded-pill px-4 mt-2">
 
               Solicitar cotización
 
             </a>
 
-            <a href="#servicios" class="btn btn-primary btn-lg rounded-pill px-4 ms">
+            <a href="#servicios" class="btn btn-primary btn-lg rounded-pill px-4 mt-2">
               Ver servicios
             </a>
+
           </div>
 
         </div>
@@ -946,7 +946,7 @@
         <div class="col-lg-5">
 
           <h3 class="h2 fw-bold">
-            ¿Tines una idea?
+            ¿Tienes una idea?
           </h3>
 
           <p class="text-muted mt-3">
@@ -956,20 +956,41 @@
 
           <div class="mt-4">
 
-            <p>
-              📱<strong>Telefono</strong>
-              3751112113
-            </p>
+            <div class="contacto-item">
+              <div class="contacto-icon">
+                📱
+              </div>
 
-            <p>
-              📧<strong>Correo</strong>
-              santosandoval163@gmail.com
-            </p>
+              <div>
+                <h5>Teléfono</h5>
+                <p>375 111 2113</p>
+              </div>
+            </div>
 
-            <p>
-              📍 <strong>ubicación</strong>
-              San Martin Hidalgo, Jalisco
-            </p>
+
+            <div class="contacto-item">
+              <div class="contacto-icon">
+                📧
+              </div>
+
+              <div>
+                <h5>Correo</h5>
+                <p>santosandoval163@gmail.com</p>
+              </div>
+            </div>
+
+
+            <div class="contacto-item">
+              <div class="contacto-icon">
+                📍
+              </div>
+
+              <div>
+                <h5>Ubicación</h5>
+                <p>Ameca, Jalisco</p>
+              </div>
+            </div>
+
           </div>
 
         </div>
@@ -977,7 +998,7 @@
         <!-- FORMULARIO -->
         <div class="col-lg-7">
 
-          <form action="">
+          <form action="" id="formContacto">
 
             <div class="row g-3">
 
@@ -987,7 +1008,7 @@
                   Nombre
                 </label>
 
-                <input type="text" class="form-control" placeholder="Tu nombre">
+                <input id="nombre" type="text" class="form-control" placeholder="Tu nombre">
 
               </div>
 
@@ -997,7 +1018,7 @@
                   Correo
                 </label>
 
-                <input type="email" name="" id="" class="form-control" placeholder="correo@ejemplo.com">
+                <input type="email" name="" id="correo" class="form-control" placeholder="correo@ejemplo.com">
 
               </div>
 
@@ -1007,21 +1028,21 @@
                   Servicio
                 </label>
 
-                <select name="" id="" class="form-select">
+                <select name="" id="servicio" class="form-select">
 
                   <option value="" selected>
                     Selecciona un servicio
                   </option>
 
-                  <option value="">
+                  <option value="Página web">
                     Página web
                   </option>
 
-                  <option value="">
+                  <option value="Soporte técnico">
                     Soporte técnico
                   </option>
 
-                  <option value="">
+                  <option value="Mantenimiento">
                     Mantenimiento
                   </option>
 
@@ -1035,15 +1056,15 @@
                   Mensaje
                 </label>
 
-                <textarea name="" id="" class="form-control" rows="5"
+                <textarea name="" id="mensaje" class="form-control" rows="5"
                   placeholder="Cuéntanos que necesitas..."></textarea>
 
               </div>
 
               <div class="col-12">
 
-                <button type="submit" class="btn btn-primary btn-lg rounded-pill px-4">
-                  Enviar mensaje
+                <button type="submit" class="btn btn-primary btn-lg rounded-pill px-4 btn-whatsapp">
+                  💬 Enviar por WhatsApp
                 </button>
 
               </div>
@@ -1056,9 +1077,137 @@
 
       </div>
 
+  </section>
+
+  <footer class="footer">
+
+    <div class="container">
+
+      <div class="row g-4">
+
+        <!-- SanSupport -->
+
+        <div class="col-lg-4">
+
+          <h2 class="footer-brand">
+            SanSupport
+          </h2>
+
+          <p class="footer-text">
+            Soliciones tecnológicas para impulsar tu negocio.
+          </p>
+
+          <a href="https://wa.me/521XXXXXXXXXX" target="_blank" class="btn btn-primary rounded-pill px-4">
+            WhatsApp
+          </a>
+
+        </div>
+
+        <!-- ENLACES -->
+
+        <div class="col-6 col-lg-2">
+
+          <h5 class="footer-title">
+            Navegación
+          </h5>
+
+          <ul class="footer-links">
+
+            <li><a href="#inicio">Inicio</a></li>
+
+            <li><a href="#servicios">Servicios</a></li>
+
+            <li><a href="#nosotros">Nosotros</a></li>
+
+            <li><a href="#contacto">Contacto</a></li>
+
+          </ul>
+
+        </div>
+
+        <!-- SERVICIOS -->
+
+        <div class="col-6 col-lg-3">
+
+          <h5 class="footer-title">
+            Servicios
+          </h5>
+
+          <ul class="footer-links">
+
+            <li>
+              <a href="#servicios">Página web</a>
+            </li>
+
+            <li>
+              <a href="#servicios">Soporte técnico</a>
+            </li>
+
+            <li>
+              <a href="#servicios">Mantenimiento</a>
+            </li>
+
+            <li>
+              <a href="#servicios">Soluciones digitales</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <!-- CONTACTO -->
+
+        <div class="col-lg-3">
+
+          <h5 class="footer-title">
+            Contacto
+          </h5>
+
+          <p class="footer-text mb-2">
+            📱 3751112113
+          </p>
+
+          <p class="footer-text mb-2">
+            ✉️ santosandoval163@gmail.com
+          </p>
+
+          <p class="footer-text mb-2">
+            📍 Jalisco, Mexico
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- LINEA -->
+
+      <hr class="footer-linea">
+
+      <!-- COPYRIGHT -->
+
+      <div class="row">
+
+        <div class="col-md-6">
+
+          <p class="footer-copy">
+            © 2026 SanSupport. Todos los derechos reservados.
+          </p>
+
+        </div>
+
+        <div class="col-md-6 text-md-end">
+
+          <p class="footer-copy">
+            Soluciones tecnologicas para tu negocio 💻
+          </p>
+
+        </div>
+
+      </div>
+
     </div>
 
-  </section>
+  </footer>
 
 
 

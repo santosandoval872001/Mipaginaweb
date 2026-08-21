@@ -270,3 +270,133 @@ body {
 .contacto textarea {
   resize: none;
 }
+
+/* BOTÓN WHATSAPP */
+
+.btn-whatsapp {
+  background-color: #25D366;
+  border-color: #25D366;
+  color: white;
+  transform: translateY(-3px);
+}
+
+/* INFORMACIÓN DE CONTACTO */
+
+.contacto-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  padding: 15px;
+  margin-bottom: 15px;
+
+  background-color: #f8fafc;
+
+  border-radius: 15px;
+
+  transition: all 0.3s ease;
+}
+
+.contacto-item:hover {
+  transform: translateX(5px);
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.contacto-icon {
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 1.4rem;
+
+  background-color: #e9f2ff;
+
+  border-radius: 12px;
+}
+
+.contacto-item h5 {
+  margin: 0;
+  font-weight: 700;
+}
+
+.contacto-item p {
+  margin: 3px 0 0;
+  color: #64748b;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #0f172a;
+  color: white;
+  padding: 70px 0 25px;
+}
+
+/* NOMBRE */
+
+.footer-brand {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 15px;
+}
+
+/* TEXTO */
+
+.footer-text {
+  color: #94a3b8;
+  line-height: 1.7;
+}
+
+/* TITULO */
+
+.footer-title {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* LISTA */
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* ENLACES */
+
+.footer-links li {
+  margin-bottom: 10px;
+
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #94a3b8;
+
+  transition: all 0.3s ease;
+}
+
+.footer-links a:hover{
+  color: white;
+  padding-left: 5px;
+}
+
+/* LINEA */
+
+.footer-linea {
+  margin: 40px 0 20px;
+
+  border-color: #334155;
+}
+
+/* COPYRIGHT */
+
+.footer-copy {
+  color: #64748b;
+  margin: 0;
+  font-size: 0.9rem;
+}
